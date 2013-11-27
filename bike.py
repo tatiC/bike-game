@@ -29,3 +29,12 @@ print "\t\t\t\t---- (*)/ (*)  (*)/ (*)  (*)/ (*)  (*)/ (*)  (*)/ (*)"
 print "\t\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 
 print_asterisks()
+
+print colors.BLUE + "The year is 1985. You're at home. You decide to rent a movie."
+print "First thing you must do is find your bike!"
+print "What do you do?"
+print "My first tip is: explore your house!"
+player_move = raw_input("> ")
+
+print_asterisks()
+
