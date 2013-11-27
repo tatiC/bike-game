@@ -1,11 +1,11 @@
 # _*_ coding: utf-8 *_*
 
-import bcolors
+import asc_colors
 import os
 import sys
 import time
 
-colors = bcolors.bcolors()
+colors = asc_colors.asc_colors()
 
 def clear_screen():
 	os.system('clear')
